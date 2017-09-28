@@ -1,0 +1,9 @@
+message = "The Quick Brown Fox Jumped Over The Fence"
+
+print(message)
+words = message.split()
+print(words[-1])
+lines = "\n".join(words)
+print(lines)
+
+
