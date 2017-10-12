@@ -1,8 +1,9 @@
 password = ""
-
+limit = 0
 while(password != "dinosaur" and password !="dogs"):
 	username = input("Enter your username\n>")
 	password = input("Enter your password\n>")
+	limit = limit + 1
 print("you are logged in")
 
 
