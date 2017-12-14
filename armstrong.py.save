@@ -1,0 +1,22 @@
+'''
++given a number, how many digits does it have?
++find a digit
++raise a number to a power
++find sum of digits powered
++compare final answer to original number
+'''
+armstrongnumbers = []
+numberToCheck = 0
+while(len(armstrongnumbers) < 100):
+	strumber = input("please enter a number")
+	numberOfDigits = len(strumber)
+	sum = 0
+
+
+	for strdigit in strumber:
+		digit = int(strdigit)
+		sum = sum + (digit**numberOfDigits)
+	if(sum == int(strumber)):
+		print("Wow, "+strumber+" actually is a armstrong number")
+	else:
+		print(strumber + " is pretty armweak")

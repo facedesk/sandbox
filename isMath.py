@@ -7,3 +7,6 @@ isDivision = "/" in equation
 
 print(isAddtion,isSubtration,isMultiplication,isDivision)
 
+if("+" in equation):
+	print("this is addition")
+
